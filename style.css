@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+    font-family: cursive;
+    margin-top: 20%;
+
+}
+.text-glow
+{
+    font-size:2rem;
+    color: #fff;
+    text-align: center;
+    animation: text-glow 1s ease-in infinite alternate;
+
+}
+@-webkit-keyframes text-glow
+{
+    from{
+        text-shadow: 0 0 10px #fff,0 0 20px #52ff33,0 0 30px #52ff33,0 0 40px #52ff33,0 0 50px #52ff33,0 0 60px #52ff33,0 0 70px #52ff33;
+    }
+    to{
+        text-shadow: 0 0 20px #fff,0 0 30px #52ff33,0 0 30px #52ff33,0 0 50px #52ff33,0 0 60px #52ff33,0 0 70px #52ff33,0 0 80px #52ff33;
+    }
+}
